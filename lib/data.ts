@@ -1,7 +1,9 @@
+import { Project } from '@/types/project';
+
 export const skills = {
   frontend: [
-    'React 18/19',
-    'Angular 17/18',
+    'React (18+))',
+    'Angular (16+)',
     'TypeScript',
     'JavaScript ES6+',
     'HTML5',
@@ -18,12 +20,7 @@ export const skills = {
     'React Query',
     'RxJS',
   ],
-  backend: [
-    'Node.js 21',
-    'Express.js',
-    'Next.js 14/15',
-    'REST API',
-  ],
+  backend: ['Node.js 21', 'Express.js', 'Next.js 14/15', 'REST API'],
   database: [
     'GraphQL',
     'Swagger',
@@ -64,7 +61,7 @@ export const skills = {
     'Accessibilité (WCAG)',
   ],
   design: ['Figma', 'Zeplin', 'Sketch', 'Photoshop'],
-}
+};
 
 export const experiences = [
   {
@@ -78,8 +75,8 @@ export const experiences = [
       'Direction Statistiques et Valorisation des Données - CELLULE DATADEV',
     missions: [
       "Développement d'applications SPA avec React 18 et TypeScript pour la gestion du réseau électrique",
-      'Refonte complète d\'interfaces legacy vers architecture moderne React',
-      'Consommation et validation d\'API REST avec équipes backend Node.js et Java',
+      "Refonte complète d'interfaces legacy vers architecture moderne React",
+      "Consommation et validation d'API REST avec équipes backend Node.js et Java",
       'Intégration de maquettes Figma en interfaces responsives conformes UX/UI',
       'Tests fonctionnels et de recette sur différents navigateurs et appareils',
       'Refactoring du code legacy et développement de nouveaux modules',
@@ -88,31 +85,71 @@ export const experiences = [
       {
         name: 'DREAM',
         description: 'Plateforme de formation au trading énergétique',
-        tech: ['React 18', 'TypeScript', 'Tailwind CSS', 'Zustand', 'Node.js', 'Express.js', 'Socket.IO', 'SQLite3', 'AWS'],
+        tech: [
+          'React 18',
+          'TypeScript',
+          'Tailwind CSS',
+          'Zustand',
+          'Node.js',
+          'Express.js',
+          'Socket.IO',
+          'SQLite3',
+          'AWS',
+        ],
       },
       {
         name: 'Carto Flux',
-        description: 'Plateforme de visualisation temps réel du réseau électrique à l\'horizon 2040',
-        tech: ['React 18', 'TypeScript', 'Tailwind CSS', 'Next.js', 'Mapbox', 'Redux Toolkit', 'AWS'],
+        description:
+          "Plateforme de visualisation temps réel du réseau électrique à l'horizon 2040",
+        tech: [
+          'React 18',
+          'TypeScript',
+          'Tailwind CSS',
+          'Next.js',
+          'Mapbox',
+          'Redux Toolkit',
+          'AWS',
+        ],
       },
       {
         name: 'Réseaux Futur',
-        description: 'Visualisation de la production et consommation d\'énergie (centrales nucléaires, éoliennes, hydrauliques, Gaz) - Prévisions 2030-2040',
-        tech: ['React 18', 'TypeScript', 'Bootstrap', 'Mapbox', 'Redux/Toolkit', 'Java', 'AWS'],
+        description:
+          "Visualisation de la production et consommation d'énergie (centrales nucléaires, éoliennes, hydrauliques, Gaz) - Prévisions 2030-2040",
+        tech: [
+          'React 18',
+          'TypeScript',
+          'Bootstrap',
+          'Mapbox',
+          'Redux/Toolkit',
+          'Java',
+          'AWS',
+        ],
       },
       {
         name: 'Rakoto',
-        description: 'Plateforme de recherche pour la création de nouveaux segments de production énergétique',
-        tech: ['React 18', 'TypeScript', 'Mapbox Leaflet', 'Axios', 'Node.js', 'Bootstrap', 'PostgreSQL', 'AWS'],
+        description:
+          'Plateforme de recherche pour la création de nouveaux segments de production énergétique',
+        tech: [
+          'React 18',
+          'TypeScript',
+          'Mapbox Leaflet',
+          'Axios',
+          'Node.js',
+          'Bootstrap',
+          'PostgreSQL',
+          'AWS',
+        ],
       },
       {
         name: 'Carte Moyen Prod',
-        description: 'Visualisation de la production d\'énergie dans les centrales',
+        description:
+          "Visualisation de la production d'énergie dans les centrales",
         tech: ['React 17', 'TypeScript', 'Bootstrap', 'Java', 'AWS'],
       },
       {
         name: 'Bacchus',
-        description: 'Plateforme de présentation la production d\'énergie et les statistiques de consommation dans les centrales',
+        description:
+          "Plateforme de présentation la production d'énergie et les statistiques de consommation dans les centrales",
         tech: ['React 17', 'TypeScript', 'Bootstrap', 'Java'],
       },
     ],
@@ -124,13 +161,14 @@ export const experiences = [
     location: 'Paris',
     type: 'Freelance',
     period: 'Sept. 2022 - Févr. 2023',
-    description: 'Opérateur du système de paiements et transactions bancaires en France',
+    description:
+      'Opérateur du système de paiements et transactions bancaires en France',
     missions: [
       'Refonte complète des interfaces utilisateur en SPA',
       'Intégration de maquettes Figma selon standards UX/UI',
       'Collaboration étroite avec équipes backend (Java) pour conception et validation des API REST',
       'Tests fonctionnels et de recette multi-navigateurs et multi-appareils',
-      'Maintenance corrective et évolutive de l\'application',
+      "Maintenance corrective et évolutive de l'application",
       'Refactoring du code et développement de nouveaux modules',
       'Participation active à la méthodologie Scrum',
     ],
@@ -142,7 +180,8 @@ export const experiences = [
       },
       {
         name: 'PLB INF CORE',
-        description: 'Suivi des flux, suivi bancaire, suivi des participants direct, suivi traitement, pilotage',
+        description:
+          'Suivi des flux, suivi bancaire, suivi des participants direct, suivi traitement, pilotage',
         tech: ['Angular 14', 'Angular Material', 'Java'],
       },
     ],
@@ -156,32 +195,51 @@ export const experiences = [
     period: 'Sept. 2017 - Sept. 2022',
     description: 'Missions chez Orange W-HA et VEEPEE',
     missions: [
-      'Pilotage de la refonte complète du front-end avec migration progressive d\'AngularJS vers Angular',
+      "Pilotage de la refonte complète du front-end avec migration progressive d'AngularJS vers Angular",
       'Intégration robuste des services back-end via API REST sécurisées',
-      'Implémentation de l\'authentification JWT, gestion des historiques et transactions',
+      "Implémentation de l'authentification JWT, gestion des historiques et transactions",
       'Développement et exécution de tests unitaires',
-      'Mise en place et suivi d\'un pipeline CI/CD (Jenkins)',
+      "Mise en place et suivi d'un pipeline CI/CD (Jenkins)",
       'Développement et intégration de 50+ mini-sites (desktop/mobile)',
     ],
     projects: [
       {
         name: 'Orange Money (W-HA)',
-        description: 'Plateforme de transfert d\'argent et de gestion de comptes',
-        tech: ['Angular (v1.7 à v12)', 'TypeScript', 'SASS', 'Webpack', 'Java (Spring)', 'REST API', 'Jenkins'],
+        description:
+          "Plateforme de transfert d'argent et de gestion de comptes",
+        tech: [
+          'Angular (v1.7 à v12)',
+          'TypeScript',
+          'SASS',
+          'Webpack',
+          'Java (Spring)',
+          'REST API',
+          'Jenkins',
+        ],
       },
       {
         name: 'Nissan Connect Services (CSR)',
-        description: 'Plateforme de gestion des abonnements clients Nissan pour 18 marchés européens',
+        description:
+          'Plateforme de gestion des abonnements clients Nissan pour 18 marchés européens',
         tech: ['Angular 8 à 12', 'TypeScript', 'REST API', 'Java', 'Jenkins'],
       },
       {
         name: 'Mini-sites Veepee (CARTE ROSE)',
-        description: 'E-commerce et marketing digital (Sephora, Air France, SNCF, Samsung, YSL, etc)',
-        tech: ['React', 'Twig', 'JavaScript ES6', 'HTML5', 'CSS3', 'Mixpanel', 'AdMob'],
+        description:
+          'E-commerce et marketing digital (Sephora, Air France, SNCF, Samsung, YSL, etc)',
+        tech: [
+          'React',
+          'Twig',
+          'JavaScript ES6',
+          'HTML5',
+          'CSS3',
+          'Mixpanel',
+          'AdMob',
+        ],
       },
       {
         name: 'Planning Brand Management',
-        description: 'Gestion des plannings d\'équipe',
+        description: "Gestion des plannings d'équipe",
         tech: ['Angular 5', 'REST API', 'SASS'],
       },
     ],
@@ -196,7 +254,7 @@ export const experiences = [
     description: 'Mission chez BRANDALLEY - Société de E-Commerce',
     missions: [
       'Conception et refonte de pages web responsives (desktop et mobile) avec Twig',
-      'Intégration et validation des composants et services fournis par l\'équipe back-end (Symfony 2)',
+      "Intégration et validation des composants et services fournis par l'équipe back-end (Symfony 2)",
       'Tests fonctionnels et recettes utilisateurs multi-appareils et multi-navigateurs',
       'Automatisation et optimisation du workflow de développement grâce à Gulp',
       'Participation active à la méthodologie Scrum',
@@ -210,7 +268,8 @@ export const experiences = [
     location: 'Tunis',
     type: 'CDI',
     period: 'Sept. 2015 - Mai 2016',
-    description: 'Société spécialisée dans le conseil en marketing - Agence Web/R&D',
+    description:
+      'Société spécialisée dans le conseil en marketing - Agence Web/R&D',
     missions: [
       'Développement et intégration frontend sur des projets variés',
       'Création et intégration des templates pour emails marketing et landing pages',
@@ -218,12 +277,22 @@ export const experiences = [
     projects: [
       {
         name: 'XEODATA',
-        description: 'Plateforme de création de templates d\'e-mailing et de landing pages marketing',
-        tech: ['WordPress', 'Prestashop', 'PHP5', 'JavaScript', 'HTML5', 'CSS3/SASS', 'MySQL', 'Symfony 2'],
+        description:
+          "Plateforme de création de templates d'e-mailing et de landing pages marketing",
+        tech: [
+          'WordPress',
+          'Prestashop',
+          'PHP5',
+          'JavaScript',
+          'HTML5',
+          'CSS3/SASS',
+          'MySQL',
+          'Symfony 2',
+        ],
       },
     ],
   },
-]
+];
 
 export const education = [
   {
@@ -233,7 +302,7 @@ export const education = [
     period: '2024 - 2025',
   },
   {
-    degree: 'Diplôme d\'ingénieur : Génie informatique',
+    degree: "Diplôme d'ingénieur : Génie informatique",
     school: 'École supérieure privée de technologie (SUPTECH)',
     location: 'Tunis',
     period: '2010 - 2013',
@@ -245,16 +314,205 @@ export const education = [
     location: 'Tunis',
     period: '2006 - 2010',
   },
-]
+];
 
 export const languages = [
   { language: 'Français', level: 'Courant' },
   { language: 'Anglais', level: 'Opérationnel' },
   { language: 'Arabe', level: 'Langue maternelle' },
-]
+];
 
 export const interests = [
   'Activités associatives',
   'Passion pour le Sport',
   'Musique',
-]
+];
+
+export const projects: Project[] = [
+  {
+    id: 1,
+    title: 'Dream Trading Platform',
+    date: '2025',
+    description: 'Plateforme de Trading en ligne moderne',
+    longDescription:
+      '<div><p class="text-sm leading-relaxed text-muted-foreground mb-3">DREAM est un jeu de simulation éducatif qui reproduit les dynamiques complexes du marché de l’électricité en France. Les joueurs incarnent différents acteurs du marché (producteurs, traders, gestionnaires de réseau) et participent à plusieurs phases du marché telles que les marchés à terme, les ajustements, l’intégration des énergies renouvelables et la compensation des pertes.</p></div><div><h3 class="mb-3 text-lg font-semibold">Tech Stack</h3><div class="space-y-4"><div><h4 class="mb-2 font-medium">Frontend</h4><ul class="space-y-1"><li class="relative ml-8 text-sm text-muted-foreground before:absolute before:-left-4 before:content-["•"]">React 18 avec TypeScript</li><li class="relative ml-8 text-sm text-muted-foreground before:absolute before:-left-4 before:content-["•"]">Composants UI Ant Design</li><li class="relative ml-8 text-sm text-muted-foreground before:absolute before:-left-4 before:content-["•"]">TailwindCSS pour le style</li><li class="relative ml-8 text-sm text-muted-foreground before:absolute before:-left-4 before:content-["•"]">ApexCharts pour la visualisation des données</li><li class="relative ml-8 text-sm text-muted-foreground before:absolute before:-left-4 before:content-["•"]">Socket.io pour la communication en temps réel</li><li class="relative ml-8 text-sm text-muted-foreground before:absolute before:-left-4 before:content-["•"]">Zustand pour la gestion d’état</li><li class="relative ml-8 text-sm text-muted-foreground before:absolute before:-left-4 before:content-["•"]">i18next pour l’internationalisation (français/anglais)</li></ul></div><div><h4 class="mb-2 font-medium">Backend</h4><ul class="space-y-1"><li class="relative ml-8 text-sm text-muted-foreground before:absolute before:-left-4 before:content-["•"]">Node.js avec Express</li><li class="relative ml-8 text-sm text-muted-foreground before:absolute before:-left-4 before:content-["•"]">TypeScript</li><li class="relative ml-8 text-sm text-muted-foreground before:absolute before:-left-4 before:content-["•"]">Socket.io pour la coordination en temps réel</li><li class="relative ml-8 text-sm text-muted-foreground before:absolute before:-left-4 before:content-["•"]">Jest pour les tests unitaires</li><li class="relative ml-8 text-sm text-muted-foreground before:absolute before:-left-4 before:content-["•"]">Moteur de jeu personnalisé basé sur une architecture orientée événements</li></ul></div></div></div>',
+    images: [
+      '/projects/dream/image-0.png',
+      '/projects/dream/image-1.png',
+      '/projects/dream/image-2.png',
+      '/projects/dream/image-3.png',
+      '/projects/dream/image-4.png',
+      '/projects/dream/image-5.png',
+    ],
+    technologies: [
+      'React 18',
+      'TypeScript',
+      'Node.js',
+      'Express',
+      'Tailwind CSS',
+      'Socket.IO',
+      'Zustand',
+      'SQLite3',
+      'i18next',
+      'AWS',
+    ],
+    category: 'Web Development',
+    featured: true,
+  },
+  {
+    id: 2,
+    title: 'Rezo futur',
+    date: '2024',
+    description:
+      "Plateforme de visualisation de la production et consommation d'énergie en France",
+    longDescription:
+      '<div><p class="text-sm leading-relaxed text-muted-foreground mb-3">DREAM est un jeu de simulation éducatif qui reproduit les dynamiques complexes du marché de l’électricité en France. Les joueurs incarnent différents acteurs du marché (producteurs, traders, gestionnaires de réseau) et participent à plusieurs phases du marché telles que les marchés à terme, les ajustements, l’intégration des énergies renouvelables et la compensation des pertes.</p></div><div><h3 class="mb-3 text-lg font-semibold">Tech Stack</h3><div class="space-y-4"><div><h4 class="mb-2 font-medium">Frontend</h4><ul class="space-y-1"><li class="relative ml-8 text-sm text-muted-foreground before:absolute before:-left-4 before:content-["•"]">React 18 avec TypeScript</li><li class="relative ml-8 text-sm text-muted-foreground before:absolute before:-left-4 before:content-["•"]">Composants UI Ant Design</li><li class="relative ml-8 text-sm text-muted-foreground before:absolute before:-left-4 before:content-["•"]">TailwindCSS pour le style</li><li class="relative ml-8 text-sm text-muted-foreground before:absolute before:-left-4 before:content-["•"]">ApexCharts pour la visualisation des données</li><li class="relative ml-8 text-sm text-muted-foreground before:absolute before:-left-4 before:content-["•"]">Socket.io pour la communication en temps réel</li><li class="relative ml-8 text-sm text-muted-foreground before:absolute before:-left-4 before:content-["•"]">Zustand pour la gestion d’état</li><li class="relative ml-8 text-sm text-muted-foreground before:absolute before:-left-4 before:content-["•"]">i18next pour l’internationalisation (français/anglais)</li></ul></div><div><h4 class="mb-2 font-medium">Backend</h4><ul class="space-y-1"><li class="relative ml-8 text-sm text-muted-foreground before:absolute before:-left-4 before:content-["•"]">Node.js avec Express</li><li class="relative ml-8 text-sm text-muted-foreground before:absolute before:-left-4 before:content-["•"]">TypeScript</li><li class="relative ml-8 text-sm text-muted-foreground before:absolute before:-left-4 before:content-["•"]">Socket.io pour la coordination en temps réel</li><li class="relative ml-8 text-sm text-muted-foreground before:absolute before:-left-4 before:content-["•"]">Jest pour les tests unitaires</li><li class="relative ml-8 text-sm text-muted-foreground before:absolute before:-left-4 before:content-["•"]">Moteur de jeu personnalisé basé sur une architecture orientée événements</li></ul></div></div></div>',
+    images: [
+      '/projects/reso-futur/image-1.png',
+      '/projects/reso-futur/image-2.png',
+      '/projects/reso-futur/image-3.png',
+      '/projects/reso-futur/image-4.png',
+      '/projects/reso-futur/image-5.png',
+      '/projects/reso-futur/image-6.png',
+      '/projects/reso-futur/image-7.png',
+      '/projects/reso-futur/image-5.png',
+      '/projects/reso-futur/image-5.png',
+      '/projects/reso-futur/image-5.png',
+      '/projects/reso-futur/image-5.png',
+    ],
+    technologies: [
+      'React 18',
+      'TypeScript',
+      'Node.js',
+      'Express',
+      'Tailwind CSS',
+      'Socket.IO',
+      'Zustand',
+      'SQLite3',
+      'i18next',
+      'AWS',
+    ],
+    category: 'Web Development',
+    featured: true,
+  },
+  {
+    id: 3,
+    title: 'Dream Trading Platform',
+    date: '2025',
+    description: 'Plateforme de Trading en ligne moderne',
+    longDescription:
+      '<div><p class="text-sm leading-relaxed text-muted-foreground mb-3">DREAM est un jeu de simulation éducatif qui reproduit les dynamiques complexes du marché de l’électricité en France. Les joueurs incarnent différents acteurs du marché (producteurs, traders, gestionnaires de réseau) et participent à plusieurs phases du marché telles que les marchés à terme, les ajustements, l’intégration des énergies renouvelables et la compensation des pertes.</p></div><div><h3 class="mb-3 text-lg font-semibold">Tech Stack</h3><div class="space-y-4"><div><h4 class="mb-2 font-medium">Frontend</h4><ul class="space-y-1"><li class="relative ml-8 text-sm text-muted-foreground before:absolute before:-left-4 before:content-["•"]">React 18 avec TypeScript</li><li class="relative ml-8 text-sm text-muted-foreground before:absolute before:-left-4 before:content-["•"]">Composants UI Ant Design</li><li class="relative ml-8 text-sm text-muted-foreground before:absolute before:-left-4 before:content-["•"]">TailwindCSS pour le style</li><li class="relative ml-8 text-sm text-muted-foreground before:absolute before:-left-4 before:content-["•"]">ApexCharts pour la visualisation des données</li><li class="relative ml-8 text-sm text-muted-foreground before:absolute before:-left-4 before:content-["•"]">Socket.io pour la communication en temps réel</li><li class="relative ml-8 text-sm text-muted-foreground before:absolute before:-left-4 before:content-["•"]">Zustand pour la gestion d’état</li><li class="relative ml-8 text-sm text-muted-foreground before:absolute before:-left-4 before:content-["•"]">i18next pour l’internationalisation (français/anglais)</li></ul></div><div><h4 class="mb-2 font-medium">Backend</h4><ul class="space-y-1"><li class="relative ml-8 text-sm text-muted-foreground before:absolute before:-left-4 before:content-["•"]">Node.js avec Express</li><li class="relative ml-8 text-sm text-muted-foreground before:absolute before:-left-4 before:content-["•"]">TypeScript</li><li class="relative ml-8 text-sm text-muted-foreground before:absolute before:-left-4 before:content-["•"]">Socket.io pour la coordination en temps réel</li><li class="relative ml-8 text-sm text-muted-foreground before:absolute before:-left-4 before:content-["•"]">Jest pour les tests unitaires</li><li class="relative ml-8 text-sm text-muted-foreground before:absolute before:-left-4 before:content-["•"]">Moteur de jeu personnalisé basé sur une architecture orientée événements</li></ul></div></div></div>',
+    images: [
+      '/projects/dream/image-0.png',
+      '/projects/dream/image-1.png',
+      '/projects/dream/image-2.png',
+      '/projects/dream/image-3.png',
+      '/projects/dream/image-4.png',
+      '/projects/dream/image-5.png',
+    ],
+    technologies: [
+      'React 18',
+      'TypeScript',
+      'Node.js',
+      'Express',
+      'Tailwind CSS',
+      'Socket.IO',
+      'Zustand',
+      'SQLite3',
+      'i18next',
+      'AWS',
+    ],
+    category: 'Web Development',
+    featured: true,
+  },
+  {
+    id: 4,
+    title: 'Dream Trading Platform',
+    date: '2025',
+    description: 'Plateforme de Trading en ligne moderne',
+    longDescription:
+      '<div><p class="text-sm leading-relaxed text-muted-foreground mb-3">DREAM est un jeu de simulation éducatif qui reproduit les dynamiques complexes du marché de l’électricité en France. Les joueurs incarnent différents acteurs du marché (producteurs, traders, gestionnaires de réseau) et participent à plusieurs phases du marché telles que les marchés à terme, les ajustements, l’intégration des énergies renouvelables et la compensation des pertes.</p></div><div><h3 class="mb-3 text-lg font-semibold">Tech Stack</h3><div class="space-y-4"><div><h4 class="mb-2 font-medium">Frontend</h4><ul class="space-y-1"><li class="relative ml-8 text-sm text-muted-foreground before:absolute before:-left-4 before:content-["•"]">React 18 avec TypeScript</li><li class="relative ml-8 text-sm text-muted-foreground before:absolute before:-left-4 before:content-["•"]">Composants UI Ant Design</li><li class="relative ml-8 text-sm text-muted-foreground before:absolute before:-left-4 before:content-["•"]">TailwindCSS pour le style</li><li class="relative ml-8 text-sm text-muted-foreground before:absolute before:-left-4 before:content-["•"]">ApexCharts pour la visualisation des données</li><li class="relative ml-8 text-sm text-muted-foreground before:absolute before:-left-4 before:content-["•"]">Socket.io pour la communication en temps réel</li><li class="relative ml-8 text-sm text-muted-foreground before:absolute before:-left-4 before:content-["•"]">Zustand pour la gestion d’état</li><li class="relative ml-8 text-sm text-muted-foreground before:absolute before:-left-4 before:content-["•"]">i18next pour l’internationalisation (français/anglais)</li></ul></div><div><h4 class="mb-2 font-medium">Backend</h4><ul class="space-y-1"><li class="relative ml-8 text-sm text-muted-foreground before:absolute before:-left-4 before:content-["•"]">Node.js avec Express</li><li class="relative ml-8 text-sm text-muted-foreground before:absolute before:-left-4 before:content-["•"]">TypeScript</li><li class="relative ml-8 text-sm text-muted-foreground before:absolute before:-left-4 before:content-["•"]">Socket.io pour la coordination en temps réel</li><li class="relative ml-8 text-sm text-muted-foreground before:absolute before:-left-4 before:content-["•"]">Jest pour les tests unitaires</li><li class="relative ml-8 text-sm text-muted-foreground before:absolute before:-left-4 before:content-["•"]">Moteur de jeu personnalisé basé sur une architecture orientée événements</li></ul></div></div></div>',
+    images: [
+      '/projects/dream/image-0.png',
+      '/projects/dream/image-1.png',
+      '/projects/dream/image-2.png',
+      '/projects/dream/image-3.png',
+      '/projects/dream/image-4.png',
+      '/projects/dream/image-5.png',
+    ],
+    technologies: [
+      'React 18',
+      'TypeScript',
+      'Node.js',
+      'Express',
+      'Tailwind CSS',
+      'Socket.IO',
+      'Zustand',
+      'SQLite3',
+      'i18next',
+      'AWS',
+    ],
+    category: 'Web Development',
+    featured: true,
+  },
+  {
+    id: 5,
+    title: 'Dream Trading Platform',
+    date: '2025',
+    description: 'Plateforme de Trading en ligne moderne',
+    longDescription:
+      '<div><p class="text-sm leading-relaxed text-muted-foreground mb-3">DREAM est un jeu de simulation éducatif qui reproduit les dynamiques complexes du marché de l’électricité en France. Les joueurs incarnent différents acteurs du marché (producteurs, traders, gestionnaires de réseau) et participent à plusieurs phases du marché telles que les marchés à terme, les ajustements, l’intégration des énergies renouvelables et la compensation des pertes.</p></div><div><h3 class="mb-3 text-lg font-semibold">Tech Stack</h3><div class="space-y-4"><div><h4 class="mb-2 font-medium">Frontend</h4><ul class="space-y-1"><li class="relative ml-8 text-sm text-muted-foreground before:absolute before:-left-4 before:content-["•"]">React 18 avec TypeScript</li><li class="relative ml-8 text-sm text-muted-foreground before:absolute before:-left-4 before:content-["•"]">Composants UI Ant Design</li><li class="relative ml-8 text-sm text-muted-foreground before:absolute before:-left-4 before:content-["•"]">TailwindCSS pour le style</li><li class="relative ml-8 text-sm text-muted-foreground before:absolute before:-left-4 before:content-["•"]">ApexCharts pour la visualisation des données</li><li class="relative ml-8 text-sm text-muted-foreground before:absolute before:-left-4 before:content-["•"]">Socket.io pour la communication en temps réel</li><li class="relative ml-8 text-sm text-muted-foreground before:absolute before:-left-4 before:content-["•"]">Zustand pour la gestion d’état</li><li class="relative ml-8 text-sm text-muted-foreground before:absolute before:-left-4 before:content-["•"]">i18next pour l’internationalisation (français/anglais)</li></ul></div><div><h4 class="mb-2 font-medium">Backend</h4><ul class="space-y-1"><li class="relative ml-8 text-sm text-muted-foreground before:absolute before:-left-4 before:content-["•"]">Node.js avec Express</li><li class="relative ml-8 text-sm text-muted-foreground before:absolute before:-left-4 before:content-["•"]">TypeScript</li><li class="relative ml-8 text-sm text-muted-foreground before:absolute before:-left-4 before:content-["•"]">Socket.io pour la coordination en temps réel</li><li class="relative ml-8 text-sm text-muted-foreground before:absolute before:-left-4 before:content-["•"]">Jest pour les tests unitaires</li><li class="relative ml-8 text-sm text-muted-foreground before:absolute before:-left-4 before:content-["•"]">Moteur de jeu personnalisé basé sur une architecture orientée événements</li></ul></div></div></div>',
+    images: [
+      '/projects/dream/image-0.png',
+      '/projects/dream/image-1.png',
+      '/projects/dream/image-2.png',
+      '/projects/dream/image-3.png',
+      '/projects/dream/image-4.png',
+      '/projects/dream/image-5.png',
+    ],
+    technologies: [
+      'React 18',
+      'TypeScript',
+      'Node.js',
+      'Express',
+      'Tailwind CSS',
+      'Socket.IO',
+      'Zustand',
+      'SQLite3',
+      'i18next',
+      'AWS',
+    ],
+    category: 'Web Development',
+    featured: true,
+  },
+  {
+    id: 6,
+    title: 'Dream Trading Platform',
+    date: '2025',
+    description: 'Plateforme de Trading en ligne moderne',
+    longDescription:
+      '<div><p class="text-sm leading-relaxed text-muted-foreground mb-3">DREAM est un jeu de simulation éducatif qui reproduit les dynamiques complexes du marché de l’électricité en France. Les joueurs incarnent différents acteurs du marché (producteurs, traders, gestionnaires de réseau) et participent à plusieurs phases du marché telles que les marchés à terme, les ajustements, l’intégration des énergies renouvelables et la compensation des pertes.</p></div><div><h3 class="mb-3 text-lg font-semibold">Tech Stack</h3><div class="space-y-4"><div><h4 class="mb-2 font-medium">Frontend</h4><ul class="space-y-1"><li class="relative ml-8 text-sm text-muted-foreground before:absolute before:-left-4 before:content-["•"]">React 18 avec TypeScript</li><li class="relative ml-8 text-sm text-muted-foreground before:absolute before:-left-4 before:content-["•"]">Composants UI Ant Design</li><li class="relative ml-8 text-sm text-muted-foreground before:absolute before:-left-4 before:content-["•"]">TailwindCSS pour le style</li><li class="relative ml-8 text-sm text-muted-foreground before:absolute before:-left-4 before:content-["•"]">ApexCharts pour la visualisation des données</li><li class="relative ml-8 text-sm text-muted-foreground before:absolute before:-left-4 before:content-["•"]">Socket.io pour la communication en temps réel</li><li class="relative ml-8 text-sm text-muted-foreground before:absolute before:-left-4 before:content-["•"]">Zustand pour la gestion d’état</li><li class="relative ml-8 text-sm text-muted-foreground before:absolute before:-left-4 before:content-["•"]">i18next pour l’internationalisation (français/anglais)</li></ul></div><div><h4 class="mb-2 font-medium">Backend</h4><ul class="space-y-1"><li class="relative ml-8 text-sm text-muted-foreground before:absolute before:-left-4 before:content-["•"]">Node.js avec Express</li><li class="relative ml-8 text-sm text-muted-foreground before:absolute before:-left-4 before:content-["•"]">TypeScript</li><li class="relative ml-8 text-sm text-muted-foreground before:absolute before:-left-4 before:content-["•"]">Socket.io pour la coordination en temps réel</li><li class="relative ml-8 text-sm text-muted-foreground before:absolute before:-left-4 before:content-["•"]">Jest pour les tests unitaires</li><li class="relative ml-8 text-sm text-muted-foreground before:absolute before:-left-4 before:content-["•"]">Moteur de jeu personnalisé basé sur une architecture orientée événements</li></ul></div></div></div>',
+    images: [
+      '/projects/dream/image-0.png',
+      '/projects/dream/image-1.png',
+      '/projects/dream/image-2.png',
+      '/projects/dream/image-3.png',
+      '/projects/dream/image-4.png',
+      '/projects/dream/image-5.png',
+    ],
+    technologies: [
+      'React 18',
+      'TypeScript',
+      'Node.js',
+      'Express',
+      'Tailwind CSS',
+      'Socket.IO',
+      'Zustand',
+      'SQLite3',
+      'i18next',
+      'AWS',
+    ],
+    category: 'Web Development',
+    featured: true,
+  },
+];
