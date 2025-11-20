@@ -106,10 +106,6 @@ npm install
 
 ### 3. Configurer les variables d'environnement
 
-```bash
-cp .env.example .env
-```
-
 Éditez `.env` et ajoutez vos connexions Neon Database :
 
 ```env
