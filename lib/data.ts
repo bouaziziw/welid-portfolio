@@ -1,0 +1,260 @@
+export const skills = {
+  frontend: [
+    'React 18/19',
+    'Angular 17/18',
+    'TypeScript',
+    'JavaScript ES6+',
+    'HTML5',
+    'CSS3',
+    'SASS',
+    'TailwindCSS',
+    'Bootstrap',
+    'Material UI',
+    'Antd',
+    'Shadcn UI',
+    'Redux',
+    'Redux Toolkit',
+    'Zustand',
+    'React Query',
+    'RxJS',
+  ],
+  backend: [
+    'Node.js 21',
+    'Express.js',
+    'Next.js 14/15',
+    'REST API',
+  ],
+  database: [
+    'GraphQL',
+    'Swagger',
+    'MongoDB',
+    'PostgreSQL',
+    'MySQL',
+    'Prisma ORM',
+  ],
+  devops: [
+    'Git',
+    'Webpack',
+    'Gulp',
+    'Jenkins',
+    'Docker',
+    'AWS',
+    'Jira',
+    'Confluence',
+    'Trello',
+    'GitHub',
+    'Vercel',
+    'Firebase',
+  ],
+  testing: [
+    'Jest',
+    'React Testing Library',
+    'Jasmine',
+    'E2E Testing',
+    'Karma',
+    'Unit Testing',
+  ],
+  methodologies: [
+    'Agile (Scrum)',
+    'Kanban',
+    'CI/CD',
+    'Tests unitaires',
+    'Tests fonctionnels',
+    'Refactoring',
+    'Accessibilité (WCAG)',
+  ],
+  design: ['Figma', 'Zeplin', 'Sketch', 'Photoshop'],
+}
+
+export const experiences = [
+  {
+    id: 1,
+    title: 'Consultant Senior Frontend | React',
+    company: 'RTE France',
+    location: 'Paris',
+    type: 'Freelance',
+    period: 'Mars 2023 - Actuel',
+    description:
+      'Direction Statistiques et Valorisation des Données - CELLULE DATADEV',
+    missions: [
+      "Développement d'applications SPA avec React 18 et TypeScript pour la gestion du réseau électrique",
+      'Refonte complète d\'interfaces legacy vers architecture moderne React',
+      'Consommation et validation d\'API REST avec équipes backend Node.js et Java',
+      'Intégration de maquettes Figma en interfaces responsives conformes UX/UI',
+      'Tests fonctionnels et de recette sur différents navigateurs et appareils',
+      'Refactoring du code legacy et développement de nouveaux modules',
+    ],
+    projects: [
+      {
+        name: 'DREAM',
+        description: 'Plateforme de formation au trading énergétique',
+        tech: ['React 18', 'TypeScript', 'Tailwind CSS', 'Zustand', 'Node.js', 'Express.js', 'Socket.IO', 'SQLite3', 'AWS'],
+      },
+      {
+        name: 'Carto Flux',
+        description: 'Plateforme de visualisation temps réel du réseau électrique à l\'horizon 2040',
+        tech: ['React 18', 'TypeScript', 'Tailwind CSS', 'Next.js', 'Mapbox', 'Redux Toolkit', 'AWS'],
+      },
+      {
+        name: 'Réseaux Futur',
+        description: 'Visualisation de la production et consommation d\'énergie (centrales nucléaires, éoliennes, hydrauliques, Gaz) - Prévisions 2030-2040',
+        tech: ['React 18', 'TypeScript', 'Bootstrap', 'Mapbox', 'Redux/Toolkit', 'Java', 'AWS'],
+      },
+      {
+        name: 'Rakoto',
+        description: 'Plateforme de recherche pour la création de nouveaux segments de production énergétique',
+        tech: ['React 18', 'TypeScript', 'Mapbox Leaflet', 'Axios', 'Node.js', 'Bootstrap', 'PostgreSQL', 'AWS'],
+      },
+      {
+        name: 'Carte Moyen Prod',
+        description: 'Visualisation de la production d\'énergie dans les centrales',
+        tech: ['React 17', 'TypeScript', 'Bootstrap', 'Java', 'AWS'],
+      },
+      {
+        name: 'Bacchus',
+        description: 'Plateforme de présentation la production d\'énergie et les statistiques de consommation dans les centrales',
+        tech: ['React 17', 'TypeScript', 'Bootstrap', 'Java'],
+      },
+    ],
+  },
+  {
+    id: 2,
+    title: 'Consultant Frontend | Angular',
+    company: 'STET',
+    location: 'Paris',
+    type: 'Freelance',
+    period: 'Sept. 2022 - Févr. 2023',
+    description: 'Opérateur du système de paiements et transactions bancaires en France',
+    missions: [
+      'Refonte complète des interfaces utilisateur en SPA',
+      'Intégration de maquettes Figma selon standards UX/UI',
+      'Collaboration étroite avec équipes backend (Java) pour conception et validation des API REST',
+      'Tests fonctionnels et de recette multi-navigateurs et multi-appareils',
+      'Maintenance corrective et évolutive de l\'application',
+      'Refactoring du code et développement de nouveaux modules',
+      'Participation active à la méthodologie Scrum',
+    ],
+    projects: [
+      {
+        name: 'ACCORE',
+        description: 'IHM pour accéder au sous-système pilotage administration',
+        tech: ['Angular 15', 'Angular Material', 'Java'],
+      },
+      {
+        name: 'PLB INF CORE',
+        description: 'Suivi des flux, suivi bancaire, suivi des participants direct, suivi traitement, pilotage',
+        tech: ['Angular 14', 'Angular Material', 'Java'],
+      },
+    ],
+  },
+  {
+    id: 3,
+    title: 'Développeur Full Stack Confirmé',
+    company: 'OOLINK (ESN)',
+    location: 'Paris',
+    type: 'CDI',
+    period: 'Sept. 2017 - Sept. 2022',
+    description: 'Missions chez Orange W-HA et VEEPEE',
+    missions: [
+      'Pilotage de la refonte complète du front-end avec migration progressive d\'AngularJS vers Angular',
+      'Intégration robuste des services back-end via API REST sécurisées',
+      'Implémentation de l\'authentification JWT, gestion des historiques et transactions',
+      'Développement et exécution de tests unitaires',
+      'Mise en place et suivi d\'un pipeline CI/CD (Jenkins)',
+      'Développement et intégration de 50+ mini-sites (desktop/mobile)',
+    ],
+    projects: [
+      {
+        name: 'Orange Money (W-HA)',
+        description: 'Plateforme de transfert d\'argent et de gestion de comptes',
+        tech: ['Angular (v1.7 à v12)', 'TypeScript', 'SASS', 'Webpack', 'Java (Spring)', 'REST API', 'Jenkins'],
+      },
+      {
+        name: 'Nissan Connect Services (CSR)',
+        description: 'Plateforme de gestion des abonnements clients Nissan pour 18 marchés européens',
+        tech: ['Angular 8 à 12', 'TypeScript', 'REST API', 'Java', 'Jenkins'],
+      },
+      {
+        name: 'Mini-sites Veepee (CARTE ROSE)',
+        description: 'E-commerce et marketing digital (Sephora, Air France, SNCF, Samsung, YSL, etc)',
+        tech: ['React', 'Twig', 'JavaScript ES6', 'HTML5', 'CSS3', 'Mixpanel', 'AdMob'],
+      },
+      {
+        name: 'Planning Brand Management',
+        description: 'Gestion des plannings d\'équipe',
+        tech: ['Angular 5', 'REST API', 'SASS'],
+      },
+    ],
+  },
+  {
+    id: 4,
+    title: 'Intégrateur et Développeur Web',
+    company: 'WEVIOO (SSII)',
+    location: 'Paris',
+    type: 'CDI',
+    period: 'Juin 2016 - Juil. 2017',
+    description: 'Mission chez BRANDALLEY - Société de E-Commerce',
+    missions: [
+      'Conception et refonte de pages web responsives (desktop et mobile) avec Twig',
+      'Intégration et validation des composants et services fournis par l\'équipe back-end (Symfony 2)',
+      'Tests fonctionnels et recettes utilisateurs multi-appareils et multi-navigateurs',
+      'Automatisation et optimisation du workflow de développement grâce à Gulp',
+      'Participation active à la méthodologie Scrum',
+    ],
+    projects: [],
+  },
+  {
+    id: 5,
+    title: 'Intégrateur et Développeur Web',
+    company: 'EDATIS',
+    location: 'Tunis',
+    type: 'CDI',
+    period: 'Sept. 2015 - Mai 2016',
+    description: 'Société spécialisée dans le conseil en marketing - Agence Web/R&D',
+    missions: [
+      'Développement et intégration frontend sur des projets variés',
+      'Création et intégration des templates pour emails marketing et landing pages',
+    ],
+    projects: [
+      {
+        name: 'XEODATA',
+        description: 'Plateforme de création de templates d\'e-mailing et de landing pages marketing',
+        tech: ['WordPress', 'Prestashop', 'PHP5', 'JavaScript', 'HTML5', 'CSS3/SASS', 'MySQL', 'Symfony 2'],
+      },
+    ],
+  },
+]
+
+export const education = [
+  {
+    degree: 'Formation Professionnelle : Anglais',
+    school: 'Wall Street English',
+    location: 'Paris',
+    period: '2024 - 2025',
+  },
+  {
+    degree: 'Diplôme d\'ingénieur : Génie informatique',
+    school: 'École supérieure privée de technologie (SUPTECH)',
+    location: 'Tunis',
+    period: '2010 - 2013',
+    mention: 'Très bien',
+  },
+  {
+    degree: 'Licence professionnelle : Informatique de gestion',
+    school: 'ESSEC',
+    location: 'Tunis',
+    period: '2006 - 2010',
+  },
+]
+
+export const languages = [
+  { language: 'Français', level: 'Courant' },
+  { language: 'Anglais', level: 'Opérationnel' },
+  { language: 'Arabe', level: 'Langue maternelle' },
+]
+
+export const interests = [
+  'Activités associatives',
+  'Passion pour le Sport',
+  'Musique',
+]

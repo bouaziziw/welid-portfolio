@@ -1,0 +1,54 @@
+// Prisma Schema pour Neon Database (PostgreSQL Serverless)
+generator client {
+  provider        = "prisma-client-js"
+  previewFeatures = ["driverAdapters"]
+}
+
+datasource db {
+  provider  = "postgresql"
+  url       = env("DATABASE_URL")
+  directUrl = env("DIRECT_URL")
+}
+
+// Table pour les messages de contact
+model Contact {
+  id        String   @id @default(cuid())
+  name      String
+  email     String
+  subject   String?
+  message   String   @db.Text
+  createdAt DateTime @default(now())
+
+  @@map("contacts")
+}
+
+// Table pour les analytics de projets
+model ProjectView {
+  id        String   @id @default(cuid())
+  projectId String
+  viewedAt  DateTime @default(now())
+  userAgent String?
+  ipAddress String?
+
+  @@index([projectId])
+  @@map("project_views")
+}
+
+// Table optionnelle pour un blog dynamique
+model BlogPost {
+  id          String    @id @default(cuid())
+  title       String
+  slug        String    @unique
+  content     String    @db.Text
+  excerpt     String?   @db.Text
+  coverImage  String?
+  published   Boolean   @default(false)
+  publishedAt DateTime?
+  createdAt   DateTime  @default(now())
+  updatedAt   DateTime  @updatedAt
+  tags        String[]
+
+  @@index([slug])
+  @@index([published])
+  @@map("blog_posts")
+}
